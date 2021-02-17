@@ -24,44 +24,7 @@ void setup() {
   }
 }
 
-void loop()
-{
-  /* The following trigPin/echoPin cycle is used to determine the
-    distance of the nearest object by bouncing soundwaves off of it. */
 
-  /*for (int i = 0; i < 5000; i++)
-    {
-    ldrstatus=analogRead(LDR);
-
-    if (ldrstatus > sensorMax)
-    {
-      sensorMax = ldrstatus;
-    }
-
-    // record the minimum sensor value
-    if (ldrstatus < sensorMin)
-    {
-      sensorMin = ldrstatus;
-    }
-    delay(1);
-    }
-
-    avg = (sensorMax + sensorMin) / 2;
-    Serial.println(avg);
-    //Serial.println(ldrstatus);
-    ldrstatus=analogRead(LDR);
-    Serial.println(ldrstatus);
-    if (ldrstatus > 600)
-
-    {
-    dark = 0;//black
-    }
-    else
-
-    {
-    dark = 1;//white
-    }
-  */
   ldrstatus = analogRead(LDR);
   //Serial.println(ldrstatus);
   //delay(1000);
